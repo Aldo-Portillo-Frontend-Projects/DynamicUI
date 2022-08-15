@@ -1,0 +1,17 @@
+.header{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header > img{
+    height: auto;
+    width: 50px;
+}
+body > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
