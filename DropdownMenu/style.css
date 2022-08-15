@@ -30,6 +30,16 @@ body > div {
 }
 
 @media only screen and (max-width: 600px) {
+    .dropdown-content{
+        display: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .dropdown-content > div:hover {
+        padding: 10px;
+        color: lightblue;
+        text-decoration: underline;
+    }
     body {
       background-color: lightblue;
     }
