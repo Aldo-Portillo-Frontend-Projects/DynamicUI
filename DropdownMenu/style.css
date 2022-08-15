@@ -1,14 +1,27 @@
-.header{
+header{
     background-color: black;
-    display: flex;
     color: white;
+}
+
+.header-static{
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
-.header > img{
+.header-static > img{
     height: auto;
     width: 50px;
+}
+
+.dropdown-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-content > div {
+    padding: 10px;
 }
 body > div {
     display: flex;
