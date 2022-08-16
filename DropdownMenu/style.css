@@ -24,11 +24,11 @@ header{
     padding: 10px;
     list-style: none;
 }
-body > div {
+/* body > div {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 
 @media only screen and (max-width: 600px) {
@@ -37,7 +37,7 @@ body > div {
         flex-direction: row;
         justify-content: space-around;
     }
-    .dropdown-content > li:hover {
+    #dropdown-content > li:hover {
         padding: 10px;
         color: lightblue;
         text-decoration: underline;
