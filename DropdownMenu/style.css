@@ -14,14 +14,15 @@ header{
     width: 50px;
 }
 
-.dropdown-content{
+.dropdown_menu{
     display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.dropdown-content > div {
+.dropdown_menu > li {
     padding: 10px;
+    list-style: none;
 }
 body > div {
     display: flex;
@@ -29,13 +30,14 @@ body > div {
     justify-content: center;
 }
 
+
 @media only screen and (max-width: 600px) {
-    .dropdown-content{
+    .dropdown_menu{
         display: none;
         flex-direction: row;
         justify-content: space-around;
     }
-    .dropdown-content > div:hover {
+    .dropdown-content > li:hover {
         padding: 10px;
         color: lightblue;
         text-decoration: underline;
